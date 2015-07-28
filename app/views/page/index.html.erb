@@ -9,372 +9,231 @@
   <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
 
-
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="../css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 
 <body>
-
-  <nav>
-    <div class="nav-wrapper">
-      <a href="#!" class="brand-logo">Logo</a>
-      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+  <script>
+   $(".button-collapse").sideNav();
+  </script>
+  <!-- script for Material design  -->
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo">Logo</a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="/customers/sign_in">login</a></li>
-        <li><a href="/customers/sign_in">Sign Up</a></li>
-        <li><a href="/business_owners/sign_in">For Shop</a></li>
-
+        <li><a href="#">User</a></li>
+        <li><a href="#">SignUp</a></li>
+        <li><a href="#">Shop</a></li>
       </ul>
-      <ul class="side-nav" id="mobile-demo">
-        <li><a href="login.html">login</a></li>
-        <li><a href="badges.html">SignUp</a></li>
-        <li><a href="/business_owners/sign_in">For Shop</a></li>
 
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#">User</a></li>
+        <li><a href="#">SignUp</a></li>
+        <li><a href="#">Shop</a></li>
       </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
-
-<!-- script for Material design  -->
-
-
- <script>
-	$(".button-collapse").sideNav();
- </script>
-
-
-
-<p>
-<!-- User Login -->
-
-<div style="background-image: url("../images/BG_Hero.jpg");"> 
-</div>
-
-
-
-
-    <div class="row">
-      <div class="col s12">
-        <div class="card-panel pink">
-          <span class="white-text">
-          	<h1 align="center">
-          	Welcome to Jamp Royally Card
-          	</h1>
-          		<div class="row">
-                    <div class="col s12 m6 l6">
-                        Descript about what's Jamp is. look at vieo
-                        <p align="center">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/f4CvOsR2bY0" frameborder="0" allowfullscreen></iframe>
-                        </p>
-                    </div>
-                    <div class="col s12 m6 l6">
-                        <div class="card-panel pink lighten-5">
-                          <span class="black-text">
-                        <div class="row">
-                            <form class="col s12">
-                              <div class="row">
-                                <div class="input-field col s12">
-                                  <input id="tel_number" type="text" class="validate">
-                                  <label for="tel_number">Tel Number</label>
-                                </div>
-                              </div>
-                              <div class="row">
-                                <div class="input-field col s12">
-                                  <input id="password" type="password" class="validate">
-                                  <label for="password">Password</label>
-                                </div>
-                              </div>
-                              <div class="row">
-                                <div class="input-field col s12">
-                                  <input id="password" type="password" class="validate">
-                                  <label for="password">Contirm Password</label>
-                                </div>
-                              </div>
-                              <div class="row">
-                                <div class="input-field col s12">
-                                  <input id="email" type="email" class="validate">
-                                  <label for="email">Email</label>
-                                </div>
-                              </div>
-                              <div align="center">
-                                <a class="waves-effect waves-light btn">SingUp</a>
-                              </div>
-                            </form>
-                        </div>
-
-
-                        <div class="row">
-
-                                <div class="col s6">
-                                    <p align="right">
-                                    Already be member |
-                                </p>
-                                </div>
-                                <div class="col s6">
-                                    <p class="left">
-                                    <a class="waves-effect waves-light btn pink">Login</a>
-                                    </p>
-                                </div>
-
-
-
-                        </div>
-
-
-
-
-
-
-                          </span>
-                        </div>
-      </div>
-                </div>   <!--- row for card -->
-          </span>
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center pink-text text-lighten-2">Jamp.Co Free Royally Card</h1>
+        <div class="row center">
+          <h5 class="header col s12 light">บัตรสะสมแต้ม แนวใหม่ ไม่ต้องพกบัตร ไม่ต้องพกโทรศัพท์ ก็ยังใช้งานได้</h5>
         </div>
+        <div class="row center">
+          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light pink lighten-1">Get Started</a>
+        </div>
+        <br><br>
+
       </div>
     </div>
+    <div class="parallax"><img src="../images/background1.jpg" alt="Unsplashed background img 1"></div>
+  </div>
 
-    <div align="center">
-      <a class="waves-effect waves-light btn-large pink" href="#Shop">ร้านค้าร่วมใช้งาน</a>
-    </div>
- <!-- end user login -->
-</p>
-
-
-
-<!-- ==== Feature == -->
-
-<!-- /end Frature -->
+  <div class="container">
+    <div class="section">
+<!-- form -->
 
 
-
-<div>
-<!-- Example Screen -->
-<!-- /end Example Screen -->
-</div>
-
-
-<table bgcolor="#ffffff" align="center" border="0" cellpadding="0" cellspacing="0" table style="width: 100%;">
-	<tr>
-		<h3 align="center">แจ๊มป์ คืออะไร</h3>
-	</tr>
-	<tr>
-
-
-      <div class="row">
-        <div class="col s12 m12 l12">
+  <div class="row">
+        <div class="col s12 m6 l6 offset-m6 offset-l6">
           <div class="card">
-            <div class="card-image">
-              <img src="images/bg_banner.jpg">
-              <span class="card-title">ระบบเราทำไรได้บ้าง</span>
-            </div>
-            <div class="card-content s12">
+            <div class="card-content">
+              <span class="card-title">สมัครสมาชิคฟรี</span>
+              <p>เพียงแค่ใช้เบอร์โทร ก็สามารถสมัครใช้งานได้ฟรีๆ ไม่มีค่าใช้จ่ายแอบแฝง</p>
+              <form class="col s12">
+                <div class="row">
+                  <div class="input-field col s12">
+                    <input id="tel_number" type="text" class="validate">
+                    <label for="tel_number">Tel Number</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col s12">
+                    <input id="password" type="password" class="validate">
+                    <label for="password">Password</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col s12">
+                    <input id="password" type="password" class="validate">
+                    <label for="password">Contirm Password</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col s12">
+                    <input id="email" type="email" class="validate">
+                    <label for="email">Email</label>
+                  </div>
+                </div>
+                <div align="center">
+                  <a class="waves-effect waves-light btn pink">SingUp</a>
+                </div>
+                <br>
+                <br>
 
-              	 <div class="row">
-              	 		<div class="col s12 m6 l6">
-              	 			<h4>สำหรับคุณ
-					        </h4>
-					              เพิ่มความสะดวกสะบายในการสะสม stamp พร้อมเตือน
+              </form>
 
-					เพื่อแลกของที่ชอบ จากร้านค้า แม้ไม่ได้พกบัตร หรือมี  app
-              	 		</div>
-              	 		<div class="col s12 m6 l6">
-              	 			<h4>สำหรับช่องทางประชาสัมพันธ์</h4>
-							เพิ่มช่องทางในการเสนอข่าวสารไปสู่กลุ่มลูกค้า ถึงมือ ซึ่งมีแนวโน้ม ขยายตัว
-              	 		</div>
-              	 </div>
+            </div>
 
-              	 <div class="row">
-              	 	<div class="col s12 m6 l6">
-	              	 	<h4>สำหรับเจ้าของ BRAND</h4>
-						เหมือนหน้าร้าน สร้าง Brand ที่แข็งแรง
-              	 	</div>
-              	 	<div class="col s12 m6 l6">
-						<h4>สำหรับนักโฆษณา</h4>
-						เพิ่มความสะดวกให้ลูกค้าที่น่ารักของเรา นำเสนอสิ่งที่ลูกค้าของเราชอบ ได้อย่างถูกต้อง ตรงใจ มีข้อมูลการซื้อ ให้ข้อมูลร้านค้า สถานที่ติดต่อ แผนที่ไปร้าน ทำโปรโมชั่น ลดแลก แจกแถม ถึงลูกค้า
-              	 	</div>
-              	 </div>
-            </div>
-            <div class="card-action">
-              <a href="#">This is a link</a>
-            </div>
           </div>
         </div>
+
+  </div>
+
+  <div class="row center">
+    <a href="#shop" id="download-button" class="btn-large waves-effect waves-light pink lighten-1">ร้านค้า</a>
+  </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
       </div>
-	</tr>
-</table>
+    </div>
+    <div class="parallax"><img src="../images/background2.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+  <!-- Feature -->
+  <a name="feature"></a>
+  <div class="container">
+    <div class="section">
 
-
-<table bgcolor="#ffffff" align="center" border="0" cellpadding="0" cellspacing="0" table style="width: 100%;">
-<tbody>
-<tr >
-	<td>
-		<h3 align="center">แจ่มทำงานอย่างไร</h3>
-			<div class="card">
-				<div class="card-image">
-	              <img src="images/bg_banner.jpg">
-	              <span class="card-title">ระบบเราทำไรได้บ้าง</span>
-            	</div>
-
-	            <div class="card-content s12">
-	            	<div class="row">
-
-				<div class="col s12 m6 l6">
-				<h4>ลงทะเบียน</h4>
-
-				ง่าย และรวดเร็ว เพียงใช้หมายเลขโทรศัพท์
-			</div>
-			<div class="col s12 m6 l6">
-				<h4>บอกสถานที่</h4>
-
-				มีระบบบอกตำแหน่งของร้านค้า พาไปที่ร้านได้ ไม่หลง
-			</div>
-
-			</div>
-
-			<div class="row">
-
-				<div class="col s12 m6 l6">
-					<h4>กำหนด PROMOTION ได้เอง</h4>
-
-					ร้านค้าสามารถสร้าง กำหนดรายละเอียดบัตรสะสมได้เอง แสตป์และกี่บาท กี่อันแลกของรางวัลได้
-				</div>
-
-				<div class="col s12 m6 l6">
-					<h4>แลกแต้ม</h4>
-
-					แลกแต้มได้ง่ายๆ แม้ลืมเอามือถือมา เพียงบอกเบอร์โทรที่หน้า Counter
-				</div>
-
-			</div>
-
-	 			</div>
-
-
-			</div>
-	</td>
-</tr>
-
-</tbody>
-</table>
-
-
-
-<a name="shop"></a>
-
-
-<table bgcolor="#E91E63" align="center" border="1" cellpadding="0" cellspacing="0" table style="width: 100%;">
-	<tbody>
-		<tr>
-
+      <!--   Icon Section   -->
       <div class="row">
-  <div class="col s12 m12">
-    <div class="card pink darken-1">
-      <div class="card-content white-text">
-        <h3 align="center">หากคุณเป็นร้านค้า ร่วมใช้งานกับเรา</h3>
-        <p align="center">
-        สามาถเริ่มใช้งานได้เองทันที  ไม่มีค่าใช้จ่ายใดๆ
-        </p>
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
+            <h5 class="center">สมัครง่ายๆและรวดเร็ว</h5>
 
-        <div class="col s12 m6 l6 offset-m4 offset-l4">
-        <div class="card">
+            <p class="light">เพียงใช้แค่เบอร์โทรศัพท์</p>
+          </div>
+        </div>
 
-        <form class="col s12">
-                 <br>
-                  <div class="row">
-                    <div class="input-field col s12">
-                      <input id="shopname" type="text" class="validate">
-                      <label for="shopname">Shop Name</label>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="input-field col s12">
-                      <input id="password" type="password" class="validate">
-                      <label for="password">Password</label>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="input-field col s12">
-                      <input id="confirm_password" type="password" class="validate">
-                      <label for="confirm_password">Confirm Password</label>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="input-field col s12">
-                      <input id="email" type="email" class="validate">
-                      <label for="email">Email</label>
-                    </div>
-                  </div>
-                  <div align="center">
-                    <a class="waves-effect waves-light btn pink">SingUp New Shop</a>
-                    <br>
-                    <br>
-                  </div>
-                </form>
-              </div>
-            </div>
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
+            <h5 class="center">User Experience Focused</h5>
 
+            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+          </div>
+        </div>
 
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
+            <h5 class="center">Easy to work with</h5>
+
+            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+          </div>
+        </div>
       </div>
 
     </div>
   </div>
+
+
+<a name="shop"></a>
+<div class="parallax-container valign-wrapper">
+  <div class="section no-pad-bot">
+    <div class="container">
+      <div class="row center">
+        <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+      </div>
+    </div>
+  </div>
+  <div class="parallax"><img src="../images/background3.jpg" alt="Unsplashed background img 3"></div>
 </div>
+<div class="container">
+  <div class="section">
+
+    <div class="row">
+      <div class="col s12 center">
+        <h3><i class="mdi-content-send brown-text"></i></h3>
+        <h4>ร้านค้า</h4>
+        <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+<footer class="page-footer pink">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="white-text">Company Bio</h5>
+        <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+
+
+      </div>
+      <div class="col l3 s12">
+        <h5 class="white-text">Settings</h5>
+        <ul>
+          <li><a class="white-text" href="#!">Link 1</a></li>
+          <li><a class="white-text" href="#!">Link 2</a></li>
+          <li><a class="white-text" href="#!">Link 3</a></li>
+          <li><a class="white-text" href="#!">Link 4</a></li>
+        </ul>
+      </div>
+      <div class="col l3 s12">
+        <h5 class="white-text">Connect</h5>
+        <ul>
+          <li><a class="white-text" href="#!">Link 1</a></li>
+          <li><a class="white-text" href="#!">Link 2</a></li>
+          <li><a class="white-text" href="#!">Link 3</a></li>
+          <li><a class="white-text" href="#!">Link 4</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+    Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+    </div>
+  </div>
+</footer>
 
 
 
 
 
 
-
-
-
-
-            <div class="row">
-
-
-
-
-                <div class="col s12 m6 l6 offset-m4 offset-l4">
-                    <div class="card">
-
-
-                </div>
-                </div>
-            </div>
-
-		</tr>
-	</tbody>
-</table>
-
-<!-- ==== Social == -->
-
-<table bgcolor="#912312" align="center" border="0" cellpadding="0" cellspacing="0" table style="width: 100%;">
-<tbody>
-
-<tr>
-<div align="center">
-								<div>
-									<h3>MAIL US</h3>
-									<a href="mailto:JampCoApp@gmail.com">JampCoApp@gmail.com</a>
-								</div>
-
-								<div>
-									<h3>Follow us</h3>
-
-										<a href="http://www.facebook.com/pages/JampCo/1391553654486654"><img src="../images/facebook.png" alt=""/></a>
-										<a href="http://twitter.com/jampcoapp"><img src="../images/twitter.png" alt=""/></a>
-
-										<br>
-
-								</div>
-
-							</div>
-
-
-</tr>
-</tbody>
-</table>
-
-
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <!--
+  <script src="../../dist/js/materialize.js"></script> -->
+  <script src="../js/materialize.js"></script>
+  <script src="../js/init.js"></script>
 </body>
 
 </html>
